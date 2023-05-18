@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { EncadearService } from './encadear.service';
+import { CacheService } from './cache.service';
 
-describe('EncadearService', () => {
-  let service: EncadearService;
+describe('CacheService', () => {
+  let service: CacheService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(EncadearService);
+    service = TestBed.inject(CacheService);
   });
 
   it('should be created', () => {
